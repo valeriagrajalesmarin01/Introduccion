@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/posiciones.css">
+    <title>Document</title>
+</head>
+<body>
+        <header>
+                    <nav>
+                            <ul>
+                                <li><a href="clase.html">Clase 1</a></li>
+                                <li><a href="actividad.html">Actividad</a></li>
+                                <li><a href="clasecss.html">Clase CSS</a></li>
+                                <li><a href="margin-padding.html">Propiedades Margin Padding Border</a></li>
+                            </ul>
+                    </nav>
+        </header>
+                <main>
+                    <section class="static">
+                        <h1>Posición Static</h1>
+                        <p>
+                            Es la posición que viene por defecto para los elementos de HTML, no se pueden mover de su posición inicial, siempre estará hubicada a la izquierda del documento
+                        </p>
+                    </section>
+                    <section class="relativa">
+                        <h1>Posición Relativa</h1>
+                        <p>
+                            Esta posición permite mover un elemento desde sus 4 puntos de orientación (Top, Bottom, Right, Left) sin embargo deja rastro de su posición inicial.
+                        </p>
+                        <div>Elemento 1</div>
+                        <div class="relativa1">Elemento 2</div>
+                        <div>Elemento 3</div>
+                        <div class="relativa2">Elemento 4</div>
+                    </section>
+                    <section class="absoluta">
+                        <h1>Posición Absoluta</h1>
+                        <p>
+                            Se posiciona al contenedor padre mas cercano con posición relativa o al body si no hay ningun contenedor relativo, este tambien puede moverse en sus 4 lados y altera el flujo de los demas contendores ya que no deja rastro de su posición inicial
+                        </p>
+                        <div class="padrerelativo">
+                            <div>Hijo 1</div>
+                            <div class="hijoabsoluto">Hijo 2</div>
+                            <div>Hijo 3</div>
+                        </div>
+                    </section>
+                    <section class="fijo">
+                        <img src="img/iconowhatsapp.png" alt="" width="100px">
+                    </section>
+                </main>
+        <footer>
+
+        </footer>
+</body>
+</html>

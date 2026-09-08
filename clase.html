@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!--Lectura de carácteres especiales-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/iconomundo.png" type="image/x-icon">
+    <title>Inicio</title> <!--Nombre de la pagina-->
+
+    <!--En head solamente vamos a agregar:
+    -Etiquetas de meta(metadatos),
+    -El titulo de la pagina(Se ve en la pestaña del navegador)
+    -Icono de la pestaña
+    -Librerias (En caso de traer estilos, tipografias...) de otros sitios
+    -NO VA contenido de la pagina web
+    -->
+</head>
+
+<body>
+        <!--TODO EL CONTENIDO VISUAL-->
+
+        <!--1.Titulos de contenido (Encabezados)-->
+        <h1>Título principal</h1> <!--h1 titulo principal-->
+        <h2>Subtítulo</h2>
+        <h3>Subtítulo</h3>
+        <h4>Subtítulo</h4>
+        <h5>Subtítulo</h5>
+        <h6>Subtítulo</h6>
+
+        <!--2.Parrafos-->
+        <p>
+Nuestro Propósito Superior es generar progreso social, productividad empresarial y movilidad a través de un saber aplicado. Somos una institución con una convicción arraigada que impacta el desarrollo, progreso y evolución de comunidades que asegura el desarrollo de seres humanos íntegros y fortalecidos. Por ello, uno de nuestros mayores orgullos es definirnos como una institución eminentemente humanista.
+        </p>
+
+        <!--3.Enlaces-->
+        <a href="https://www.youtube.com/watch?v=eo1gKGt6h9M">Ir a Youtube</a>
+        <!--El atributo href me permite especificar cual es la URL a la cual vamos a dirigirnos-->
+
+        <br><br> <!--br es salto de linea-->
+        <a href="estudiantes.html">Pagina Estudiantes</a>
+
+  
+        <a href="https://www.facebook.com/?locale=es_LA" target="_blank">Ir a Facebook</a>
+        <!-- target="_blank" para indicar que ese enlace se abra en una pestaña nueva -->
+
+        <h1>Etiquetas de formato de texto</h1>
+        <b>Texto en Negrita</b> 
+        <br>
+        <strong>Texto en Negrita</strong>
+        <br>
+        <i>Texto en Cursiva</i>
+        <br>
+        <u>Texto subrayado</u>
+        <br>
+        <s>Texto tachado</s>
+        <br>
+        <mark>Texto resaltado</mark>
+        <br>
+        <marquee behavior="alternate" direction="right" scrollamount="" >Texto en movimiento</marquee>
+        <br>
+        <center>Texto en el medio</center>
+        <br>
+        <p>
+                Lorem ipsum dolor, sit amet <b>consectetur</b> adipisicing elit. Perferendis dolorum rerum nemo quasi incidunt illo. Saepe delectus numquam consequuntur architecto exercitationem illo corrupti, quaerat neque ab dolor vel, reiciendis assumenda.
+        </p>
+
+        <h1>Etiqutas de lista</h1>
+
+        <h2>Lista no ordenadas: Listas en viñetas</h2>
+        <ul>
+                <li>Rojo</li>
+                <li>Verde</li>
+                <li>Negro</li>
+                <li>Azul</li>
+                <li>Amarillo</li>
+        </ul>
+        <h2>Listas Ordenadas: Lista numericas</h2>
+        <ol>
+                <li>Gato</li>
+                <li>Perro</li>
+                <li>Conejo</li>
+                <li>Caballo</li>
+                <li>Leon</li>
+        </ol>
+
+        <h2>Primera lista</h2>
+        <ol>
+                <li>Argentina</li>
+                <ul>
+                        <li><a href="">La Nación</a></li>
+                        <li><a href="">Clarín</a></li>
+                        <li><a href="">Página 12</a></li>
+                </ul>
+                <li>España</li>
+                <ul>
+                        <li><a href="">El País Digital</a></li>
+                        <li><a href="">ABC</a></li>
+                        <li><a href="">El Mundo</a></li>
+                </ul>
+        </ol>
+        <h2>Segunda lista</h2>
+        <ol type="a">
+                <li>Primero</li>
+                <li>Segundo</li>
+                <li>Tercero</li>
+        </ol>
+        <h2>Tercer lista</h2>
+        <ol type="I" start="10" reversed>
+                <li>Primero</li>
+                <li>Segundo</li>
+                <li>Tercero</li>
+        </ol>
+         <h2>Cuarta lista</h2>
+        <ol start="100" reversed>
+                <li>Primero</li>
+                <li>Segundo</li>
+                <li>Tercero</li>
+        </ol>
+
+
+        <h1>Archivos Multimedia en HTML</h1>
+        <img src="img/gato.JPG" alt="Gato 1" width="215px" height="280px" >
+        <!-- src es el atributo para poner la ruta y la imagen en especifico -->
+        <!-- alt es un nombre para ubicar una imagen en caso de que se pierda, se borre o no exista -->
+        <!-- width es para modificar el ancho de un elemento -->
+        <!-- height es para modificar el alto de un elemento -->
+        <!-- px - píxeles: esto es una unidad de medida -->
+        <a href="https://www.instagram.com/" >
+                <img src="img/instagram.png" alt="" width="200px">
+        </a>
+        <hr> 
+        
+        <video controls width="400px">
+                <source src="video/Mi Madre - Cortometraje animado _ CADO.mp4" type="">
+        </video>
+
+
+        <h1>Tablas en HTML</h1>
+
+        <table border="3">
+                <tr> <!--Abrir una fila--> 
+                        <th colspan="4">Información de Usuarios</th> <!--Crear una celda de enunciado-->
+                </tr> <!--Cerrar la fila-->
+                <tr>
+                        <th>Nombre</th>
+                        <th>Apellido</th>
+                        <th>Ciudad</th>
+                        <th>Telefono</th>
+                </tr>
+                <tr>
+                        <td>Camila</td>
+                        <td>Ruiz</td>
+                        <td>Medellín</td>
+                        <td>30192312</td>
+                </tr>
+        </table>
+      
+        <table border="">
+                <tr>
+                        <th bgcolor="red">Celda 1</th>
+                        <th>Celda 2</th>
+                        <th>Celda 3</th>
+                        <th>Celda 4</th>
+                </tr>
+                <tr>
+                        <td rowspan="3" bgcolor="">Celda 5</td>
+                        <td>Celda 6</td>
+                        <td colspan="2">Celda 7</td>
+                </tr>
+                <tr>
+                        <td>Celda 8</td>
+                        <td>Celda 9</td>
+                        <td rowspan="2">Celda 10</td>
+                </tr>
+                <tr>
+                        <td colspan="2">Celda 11</td>
+                </tr>
+        </table>
+
+        <table border="">
+                <tr>
+                        <td>Horas</td>
+                        <td>Lunes</td>
+                        <td>Martes</td>
+                        <td>Miércoles</td>
+                        <td>Jueves</td>
+                        <td>Viernes</td>
+                </tr>
+
+                <tr>
+                        <td>8:00-9:00</td>
+                        <td rowspan="2">Matemáticas</td>
+                        <td>Lengua</td>
+                        <td>Música</td>
+                        <td></td>
+                        <td rowspan="2">Matemáticas</td>
+                </tr>
+                <tr>
+                        <td>9:00-10:00</td>
+                        <td>Inglés</td>
+                        <td>Inglés</td>
+                        <td >E.Física</td>
+                </tr>
+                <tr>
+                        <td>10:00-10:30</td>
+                        <td colspan="5">Recreo</td>
+                </tr>
+        </table>
+
+        <h1>Formularios en HTML</h1>
+
+        <form action="">
+                <label for="">Nombre:</label>
+                <input type="text" placeholder="Ingresa tu nombre">
+                <!--placeholder es el texto guia que esta por dentro del input para decirle al usuario que información quiero que me ingrese -->
+                <!--type="text" permite escribir de TODO letras, numeros, simbolos, alfanumericos, caracteres...  -->
+                <br><br>
+                <label for="">Numero de Contacto:</label>
+                <input type="number" name="" id="" placeholder="Ingrese su numero de telefono">
+                <!-- type="number" solamente el usuario puede escribir numeros -->
+                <br><br>
+                <label for="">Correo Electronico:</label>
+                <input type="email" name="" id="" placeholder="Ingresa un correo de contacto">
+
+                <br><br>
+
+                <label for="">Contraseña:</label>
+                <input type="password" name="" id="" placeholder="Ingresa una contraseña">
+
+                <br><br>
+                <label for="">Fecha de Nacimiento:</label>
+                <input type="date" name="" id="">
+        
+                <br><br>
+                <label for="">Seleccione la fecha y la hora de su cita:</label>
+                <input type="datetime-local" name="" id="">
+
+                <br><br>
+                <label for="">Seleccione su genero:</label>
+                <br>
+                <input type="radio" name="genero" id="">
+                <label for="">Femenino</label>
+                <br>
+                <input type="radio" name="genero" id="">
+                <label for="">Masculino</label>
+
+                <br><br>
+                <label for="">Seleccione la ciudad donde vive:</label>
+                <select name="" id="">
+                        <option value="">Seleccione una ciudad</option>
+                        <option value="">Medellín</option>
+                        <option value="">Bogotá</option>
+                        <option value="">Cali</option>
+                </select>
+                <br><br>
+                <input type="checkbox" name="" id="" required>
+                <label for="">Aceptas terminos y condiciones</label>
+
+                <br><br>
+                <input type="button" value="Enviar Datos">
+                <input type="submit" value="Guardar Datos">
+                <input type="reset" value="Limpiar Formulario">
+        </form>
+
+      
+</body>
+</html>

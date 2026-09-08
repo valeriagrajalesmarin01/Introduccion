@@ -1,0 +1,91 @@
+* /*Selector universal: selecciona a todos los elementos del HTML, incluida la etiqueta body*/
+{
+    margin: 0; /*Al colocar margin en 0, le estoy quitando todas las margenes que tienen los elementos por defecto*/
+}
+header
+{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+nav
+{
+    background-color: lightyellow;
+    
+}
+nav ul 
+{
+    list-style: none;
+    text-align: center;
+    padding: 15px;
+}
+nav li
+{
+    display: inline-block;
+    margin: 0 12px;
+    padding: 10px;
+}
+nav a 
+{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+nav a:hover
+{
+    border-bottom: 1px solid;
+    color:magenta;
+}
+main section
+{
+    margin: 15px;
+}
+.static
+{
+    background-color: lightgoldenrodyellow;
+    width: 300px;
+    height:300px;
+    padding: 10px;
+    position: static;
+}
+.relativa div
+{
+    background-color: lightgreen;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 10px;
+}
+.relativa1
+{
+    position: relative;
+    left: 500px;
+    top: 100px;
+}
+.padrerelativo
+{
+    width: 600px;
+    height: 500px;
+    border: 2px solid green;
+    position: relative;
+}
+.padrerelativo div
+{
+    width: 150px;
+    height: 150px;
+    background-color: lightblue;
+}
+.hijoabsoluto
+{
+    position: absolute;
+    right: 0;
+    bottom :0px;
+}
+.fijo
+{
+    position: fixed;
+    right: 20px;
+    bottom: 30px;
+}

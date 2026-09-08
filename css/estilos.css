@@ -1,0 +1,61 @@
+/*
+
+Sintaxis del CSS: 
+    selector
+    {
+        propiedad:valor;
+    }
+
+    Selector: Es la o las etiquetas de HTML que quiero modificar y hay 3 tipos de selector:
+        1.De etiqueta: llamamos a TODAS las mismas etiquetas que estan en el HTML, quiere decir, ejemplo: puedo modificar a todas las p de mi HTML
+*/
+p 
+{
+    color: rgba(238,43,123); /* color es el color de le letra*/
+    font-size: 23px; /*font-size: tamaño de la letra*/
+    font-family: "Cause", cursive;
+}
+/*Ahi estamos diciendo que todos los parrafos que esten en el HTML, su letra es de color rosado*/
+
+/*
+    2.Selector de Id: Para llamar a una etiqueta en particular, en el HTML se representa: 
+    <a id="enlace1">Enlace</a> ya ninguna otra etiqueta puede tener el id enlace1
+    Y para llamarla en el CSS: 
+    #enlace1
+    {
+    }
+*/
+#titulo1
+{
+    text-align: center;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*
+    3.Selector de clase: este me permite darle propiedades a varias etiquetas que tengan las mismas cualidades, estas etiquetas no tienen que ser del mismo tipo, es decir, el puedo aplicar la misma clase a un p y a un h1, es el selector mas usado en CSS, una misma etiqueta puede tener varias clases
+    Primero tienen que haber etiquetas con la clase:
+    <a class="fuente otraclase otraclase">Enlace </a>
+    <p class="fuente"> Parrafo </p>
+    Y en CSS las llamamos con un . 
+    .fuente
+    {
+    }
+*/
+.colortexto
+{
+    color: green;
+}
+.centrado
+{
+    text-align: center;
+}
+footer
+{
+    background-color: lightgreen;
+    text-align: center;
+}
+body
+{
+    background-image: url(/img/fondogoku.jpg);
+    background-size: cover;
+}

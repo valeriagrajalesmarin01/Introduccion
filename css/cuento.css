@@ -1,0 +1,31 @@
+body
+{
+    background-color: rgba(173, 216, 230, 0.383);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tituloc
+{
+    text-align: center;
+    color: blue;
+}
+#titulo1
+{
+    background-color: lightblue;
+}
+#titulo2
+{
+    background-color: lightskyblue;
+    font-size: 18px;
+}
+.tituloverde
+{
+    background-color: lightgreen;
+    color: green;
+    font-size: 14px;
+}
+#parrafofinal
+{
+    background-color: gray;
+    color: white;
+    text-align: center;
+}

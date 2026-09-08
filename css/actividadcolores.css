@@ -1,0 +1,70 @@
+body
+{
+    border: 2px solid ;
+}
+.fila1 div, .fila5 div
+{
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+}
+
+.verdeclaro
+{
+    background-color: greenyellow;
+}
+
+.verdeoscuro
+{
+    background-color: green;
+}
+
+.azul
+{
+    background-color: lightblue;
+}
+
+.turqueza, .azuloscuro
+{
+    display: inline-block;
+    width: 662px;
+    height: 120px;
+}
+
+.turqueza
+{
+    background-color: teal;
+}
+
+.azuloscuro
+{
+    background-color: blue;
+}
+
+.cortai,.cortad
+{
+    width: 562px;
+    position: relative;
+}
+
+.cortai
+{
+    margin-left: 100px;
+}
+.rojo1,.rojo2
+{
+    width: 60px;
+    height: 60px;
+    background-color: orangered;
+}
+.rojo1
+{
+    position: absolute;
+    bottom: 0;
+}
+.rojo2
+{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
