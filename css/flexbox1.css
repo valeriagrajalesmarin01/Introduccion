@@ -1,0 +1,147 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.instagram
+{
+    display: flex;
+    justify-content: space-around;
+    padding: 12px;
+    border-radius: 12px;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.25);
+}
+.instagram img
+{
+    width: 50px;
+}
+
+
+.netflix
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    align-items: center;
+    padding: 10px 0px;
+   
+}
+.perfil
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 20px;
+}
+.perfil #perfil1
+{
+    width: 55px;
+    height: 55px;
+    border-radius: 5px;
+}
+.perfil #flecha
+{
+    width: 20px;
+    height: 20px;
+}
+.enlaces
+{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.enlaces a 
+{
+    color: white;
+    text-decoration: none;
+    font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 10px;
+}
+.enlaces a:hover
+{
+    background-color: rgba(220, 220, 220, 0.581);
+    padding: 10px;
+    border-radius: 15px;
+}
+.enlaces img
+{
+    width: 30px;
+    height: 30px;
+    filter: invert();
+}
+.logo
+{
+    margin-right: 20px;
+}
+.logo img
+{
+    width: 60px;
+    height: 60px;
+}
+
+.youtube
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+}
+.logoyoutube, .busqueda
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logoyoutube .menuh
+{
+    width: 20px;
+    height: 20px;
+    
+}
+.logoyoutube .menuh:hover
+{
+    background-color: rgba(128, 128, 128, 0.353);
+    padding: 20px;
+    border-radius: 50%;
+}
+.logoyoutube .iconoy
+{
+    width: 93px;
+    height: 36px;
+}
+.busqueda input
+{
+    width: 478px;
+    height: 48px;
+    border-radius: 40px;
+    border: none;
+    border: 1px solid gainsboro;
+    padding: 4px 16px;
+}
+.busqueda img
+{
+    width: 30px;
+    height: 30px;
+}
+.login, .login span
+{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.login img
+{
+    width: 30px;
+    height: 30px;
+}
+.login span
+{
+    background-color: rgba(135, 206, 250, 0.549);
+    padding: 12px;
+    border-radius: 40px;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
